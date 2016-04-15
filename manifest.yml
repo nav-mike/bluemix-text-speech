@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: eu-gb.mybluemix.net
+  name: test-speach-nodejs
+  host: test-speach-nodejs
+  disk_quota: 1024M
+  services:
+  - Text to Speech-8i
