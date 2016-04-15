@@ -1,7 +1,7 @@
 {
-	"name": "NodejsStarterApp",
+	"name": "test-speach-nodejs",
 	"version": "0.0.1",
-    "private": true,
+    "private": false,
 	"scripts": {
 		"start": "node app.js"
 	},
@@ -13,7 +13,9 @@
     "cheerio"    : "latest",
 		"watson-developer-cloud": "latest"
 	},
-	"repository": {},
+	"repository": {
+		"github": "git@github.com:nav-mike/bluemix-text-speech.git"
+	},
 	"engines": {
 		"node": "4.2.x"
 	}
