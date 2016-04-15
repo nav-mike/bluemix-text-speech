@@ -10,11 +10,11 @@ $(document).ready(function(){
       console.log(this.state.url);
       $.ajax({
         url: '/q.json',
-        dataType: 'json',
         data: {url: this.state.url},
         type: 'POST',
         success: function(data) {
           console.log(data);
+          window.open('resources/output.wav','','...');
         },
         error: function(jqXHR, textStatus, errorThrown) {
           console.log(textStatus);
